@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pedido - Pizzaria Demeu</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cardapio.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pedido.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><img src="Logo.png" class="displayed"></h1>
+        <div class="caixa">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardapio</a></li>
+                    <li><a href="pedido.html">Fazer meu pedido</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <button>Mesa</button>
+        <button>Delivery</button>
+        <form method="POST" action="#" class="form_mesa">
+            <h1>Cadastro de Mesa:</h1><br>
+            <label for="cx_n_mesa">Número da Mesa:</label><br>
+            <input type="text" id="cx_n_mesa" name="cx_n_mesa" width="10px"><br>
+            <label for="cx_nome">Nome do cliente:</label><br>
+            <input id="cx_nome" name="cx_nome" width="240px"><br>
+            <label for="cx_n_pedido">Número do pedido</label><br>
+            <input id="cx_n_pedido" name="cx_n_pedido" width="10px"><br>
+            <label for="cx_desc">Descrição:</label><br>
+            <textarea class="cx_desc" cols="70  x" rows="7"></textarea><br>
+
+            <button>Finalizar Pedido</button>
+        </form>
+        <form method="POST" action="#" class="form_delivery">
+            <h1>Cadastro de delivery</h1><br>
+            <label for="cx_nome_delivery">Nome do cliente:</label><br>
+            <input id="cx_nome_delivery" name="cx_nome_delivery" width="240px"><br>
+            <label for="cx_end">Endereço:</label><br>
+            <input id="cx_end" name="cx_end" width="260px"><br>
+            <label for="cx_n_residencia">Número da residência:</label><br>
+            <input id="cx_n_residencia" name="cx_n_residencia" width="10px"><br>
+            <label for="cx_ref">Referência</label><br>
+            <input id="cx_ref" name="cx_ref" width="240px"><br>
+            <label for="cx_desc_delivery">Descrição</label><br>
+            <textarea class="cx_desc_delivery" cols="70" rows="7"></textarea><br>
+            <label for="cx_meio_pagamento">Meio de pagamento:</label><br>
+            <input id="cx_meio_pagamento" name="cx_meio_pagamento" width="240px"><br>
+            <button class="btn">Finalizar Pedido</button>
+        </form>
+    </main>
+    <footer>
+        <img src="pizza_footer.png" style="width: 240px; height: 210px;">
+        <p class="cp"> &copy;Copyright Pizaria Demeu - 2020</p>
+    </footer>
+</body>
+
+</html>

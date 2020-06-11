@@ -1,0 +1,19 @@
+.network h1 {
+    font-size: 30px;
+    font-family: cursive;
+    color: #bb2222;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+div a {
+    text-decoration: none;
+}
+
+.contato h1 {
+    font-size: 30px;
+    font-family: cursive;
+    color: #bb2222;
+}

@@ -1,0 +1,100 @@
+header {
+    background: #B22222;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 25px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+}
+
+header img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.cardapio {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.cardapio li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    border: solid gold 2px;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.cardapio li:hover {
+    border-color: #C78C19;
+    cursor: pointer;
+}
+
+.cardapio li:active {
+    border-color: #B22222;
+}
+
+.cardapio li:hover h2 {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.cardapio h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+    color: #B22222;
+    padding-bottom: 25px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+    color: #B22222;
+    padding-top: 30px;
+}
+
+.desc {
+    font-size: 18px;
+    padding-top: 30px;
+    color: #B22222;
+}
+
+footer {
+    text-align: center;
+    background: #B22222;
+    padding: 40px 0;
+}
+
+.cp {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

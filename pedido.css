@@ -1,0 +1,62 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+    border: #cdcdcd 2px solid;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: #b2222b;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #b2222b;
+    font-family: cursive;
+    margin-left: 40%;
+}
+
+form input,
+textarea {
+    display: block;
+    margin: 0 0;
+    padding: 10px 25px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+button {
+    border: skyblue solid 2px;
+    border-radius: 5px;
+    background: #87CEFA;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn {
+    transition: 5s background;
+}
+
+button:hover {
+    background: limegreen;
+    transform: scale(1.2);
+}
